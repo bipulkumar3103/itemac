@@ -546,3 +546,22 @@ client card
     --bs-btn-disabled-bg: #3D52A0 !important;
     --bs-btn-disabled-border-color: #3D52A0 !important;
 }
+
+.nav-tabs {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of items */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile */
+  }
+  
+  .nav-tabs::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for a cleaner look */
+  }
+  
+  .nav-item {
+    flex: 0 0 auto; /* Ensure tabs don't stretch */
+    text-align: center; /* Align text in the center */
+  }
+  
+  .nav-link {
+    white-space: nowrap; /* Ensure text stays in one line */
+  }
