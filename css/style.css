@@ -37,7 +37,14 @@
         width: 100vw;
     }
 
-
+    .content .title{
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .content .des{
+        font-size: 12px !important;
+        font-weight: 300;
+    }
 
     .content{
         bottom:0;
@@ -47,6 +54,10 @@
         height: 100px;
         background-color: rgb(255, 255, 255);
         /* transform: translateX(40%); */
+
+        padding: 10px !important;
+        text-align: justify;
+        /* font-weight: 300; */
 
 
     }
