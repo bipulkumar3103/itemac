@@ -1,6 +1,9 @@
 *{
     font-family: "Inter", serif;
 }
+html{
+  scroll-behavior: smooth !important;
+}
 
 .navbar-brand{
     font-weight: 500 !important;
@@ -1011,4 +1014,22 @@ client card
         .modal-title i:hover {
           color: #1e2b5a;
           transform: rotate(20deg);
+        }
+
+        /* /////////////////////////////
+        scroll button css
+        */
+        .scrollToTopBtn {
+          position: fixed !important;
+          bottom: 100px !important;
+          right: 30px !important;
+          font-size: 24px !important; 
+          display: none ; /*Hidden initially */
+          transition: opacity 0.3s ease !important; /* Fade-in effect */
+          z-index: 9999 !important;
+        }
+        
+        .showScrollBtn {
+          display: inline-block ; /* Show button when scrolled */
+          opacity: 1 !important;
         }

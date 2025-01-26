@@ -74,40 +74,4 @@ document.getElementById("contactFixedForm").addEventListener("submit", function 
 
 
 
-  ///////////////////////////////////send contact form to email
-
-
-//   const form=document.querySelector('.myContactForm');
-//   //function on click submit button
-
-//   function sendMsg(e){
-//     e.preventDefault();
-//     const name=document.querySelector('.input-name'),
-//           email=document.querySelector('.input-email'),
-//           phone=document.querySelector('.input-phone'),
-//           message=document.querySelector('.input-textarea');
-
-
-//           //function to send mail
-//           Email.send({
-//             SecureToken: "ab283de2-72c1-49a7-be6b-26134152b80e", // Replace with your secure token
-//             To: 'bipulkumar3103@gmail.com',
-//             From: 'bk1654979@gmail.com',
-//             Subject: `Message from ${name.value} (${phone.value})`,
-//             Body: `Name: ${name.value}<br>Email: ${email.value}<br>Phone: ${phone.value}<br>Message: ${message.value}`
-//         }).then(
-//             response => {
-//                 console.log("Raw Response:", response);
-//                 // if (response === "OK") {
-//                 //     alert("Your message has been sent successfully!");
-//                 //     form.reset(); // Reset the form after successful submission
-//                 // } else {
-//                 //     alert("There was an error sending your message: " + response);
-//                 // }
-//             }
-//         );
-//     }
-    
-//     // Attach event listener to the form
-//     form.addEventListener('submit', sendMsg);
-
+// Get the button
